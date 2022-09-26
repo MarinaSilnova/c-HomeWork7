@@ -31,6 +31,7 @@ Console.Write("Введите кол-во строк: ");
 int n = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите кол-во столбцов: ");
 int m = Convert.ToInt32(Console.ReadLine());
+
 double[, ] matrix = new double[n, m];
 InputMatrix(matrix);
 PrintMatrix(matrix);
